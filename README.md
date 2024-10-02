@@ -1,16 +1,6 @@
 The OBJ VN FIXXER script is for enhancing `.obj` files with vertex normals, the MTL generator script is for creating `.mtl` files, and the TGA to PNG converter script is for converting texture files. Here’s how you can use them in a workflow:
 
 ### Workflow: Using OBJ VN FIXXER, MTL Generator, and TGA to PNG Converter Scripts
-Locate the `.car` file you want -> 
-
-Export `.obj` (using C3Dit) + `.tga` -> 
-
-`mtl` (MTL Genterator) -> 
-
-convert `.tga` to `.png` (TGA to PNG Converter) ->
-
-`.obj` (OBJ VN FIXXER) -> Finished!
-
 
 #### Prerequisites:
 - **Python Environment:** Ensure Python 3.x is installed on your system.
