@@ -46,24 +46,6 @@ convert `.tga` to `.png` (TGA to PNG Converter) ->
 
    - Enter the path to the `.obj` file when prompted (just file path with no .obj). The script will create a new `.obj` file with `_with_normals` appended to the filename, containing vertex normals.
 
-#### Example Workflow:
-
-Suppose you have the following directory structure and files:
-
-```
-project/
-│
-├── models/
-│   ├── example_model.obj
-│   ├── example_model.mtl
-│   ├── texture1.tga
-│   └── texture2.tga
-│
-├── mtl_generator.py
-├── convert_tga_to_png.py
-└── obj_vn_fixer.py
-```
-
 ## **Steps:**
 ### 1. MTL Generator Script
 
