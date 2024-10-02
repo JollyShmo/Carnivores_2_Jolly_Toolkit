@@ -16,6 +16,8 @@ The OBJ VN FIXXER script is for enhancing `.obj` files with vertex normals, the 
 
 (Since every skin should be named `Skin.png` this will keep things from breaking.)
 
+https://github.com/carnivores-cpe/c3dit
+
 2. **Convert `.car` to `.obj` Using C3Dit:**
    - Use C3Dit or any other tool to convert `.car` files to `.obj`.
      
