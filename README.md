@@ -64,19 +64,80 @@ project/
 └── obj_vn_fixer.py
 ```
 
-- **Steps:**
-   1. **Run MTL Generator:**
-      - Execute `python mtl_generator.py`.
-      - Select `example_model.obj` when prompted. This creates `example_model.mtl` with specified material properties (`Dino_Skin`).
+## **Steps:**
+### 1. MTL Generator Script
 
-   2. **Convert TGA to PNG:**
-      - Execute `python convert_tga_to_png.py`.
-      - Enter `/path/to/your/project/models` when prompted. This converts `texture1.tga` and `texture2.tga` to `texture1.png` and `texture2.png`.
+#### Tree Map:
+```
+project/
+├── models/
+│   └── example_model.obj          (Input: .obj file)
+│
+└── mtl_generator.py               (Script: MTL Generator)
+```
 
-   3. **Enhance OBJ with Vertex Normals:**
-      - Execute `python obj_vn_fixer.py`.
-      - Enter `/path/to/your/project/models/example_model.obj` when prompted. This generates `example_model_with_normals.obj` with vertex normals.
+#### Example:
+- **Start with:** `example_model.obj` (Wavefront OBJ file)
+- **End up with:** `example_model.mtl` (Material Template Library file)
 
+#### Workflow:
+- **Input:** `example_model.obj`
+- **Action:** Run `mtl_generator.py`
+- **Output:** `example_model.mtl` (Generated MTL file with predefined material properties)
+
+### 2. TGA to PNG Converter Script
+
+#### Tree Map:
+```
+project/
+├── models/
+│   ├── example_model.obj          (Input: .obj file)
+│   ├── example_model.mtl          (Generated: .mtl file)
+│   ├── texture1.tga               (Input: TGA texture file)
+│   └── texture2.tga               (Input: TGA texture file)
+│
+└── convert_tga_to_png.py          (Script: TGA to PNG Converter)
+```
+
+#### Example:
+- **Start with:** `texture1.tga`, `texture2.tga` (TGA texture files)
+- **End up with:** `texture1.png`, `texture2.png` (Converted PNG texture files)
+
+#### Workflow:
+- **Input:** `/path/to/your/project/models/` (Contains TGA texture files)
+- **Action:** Run `convert_tga_to_png.py`
+- **Output:** `texture1.png`, `texture2.png` (Converted PNG files in the same directory)
+
+### 3. OBJ VN FIXXER Script
+
+#### Tree Map:
+```
+project/
+├── models/
+│   ├── example_model.obj          (Input: .obj file)
+│   ├── example_model.mtl          (Generated: .mtl file)
+│   ├── texture1.tga               (Converted: PNG texture file)
+│   ├── texture2.tga               (Converted: PNG texture file)
+│   └── example_model_with_normals.obj  (Output: .obj file with vertex normals)
+│
+└── obj_vn_fixer.py                (Script: OBJ VN FIXXER)
+```
+
+#### Example:
+- **Start with:** `example_model.obj` (Wavefront OBJ file)
+- **End up with:** `example_model_with_normals.obj` (OBJ file with vertex normals)
+
+#### Workflow:
+- **Input:** `/path/to/your/project/models/example_model.obj` (Original .obj file)
+- **Action:** Run `obj_vn_fixer.py`
+- **Output:** `example_model_with_normals.obj` (Enhanced .obj file with vertex normals)
+
+### Summary:
+- **MTL Generator:** Generates `.mtl` files from `.obj` files with predefined material properties.
+- **TGA to PNG Converter:** Converts TGA texture files to PNG format.
+- **OBJ VN FIXXER:** Enhances `.obj` files with vertex normals.
+
+This tree map and example illustrate the workflow and outputs of each script, providing clarity on what you start with and what you achieve after running each script in your project directory. Adjust paths and script inputs based on your specific file structure and project needs.
 #### Notes:
 - Ensure scripts are executed in the correct order: MTL generation, TGA to PNG conversion, and OBJ enhancement.
 - Customize scripts as needed for specific material properties, file paths, or additional features.
