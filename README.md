@@ -28,27 +28,22 @@ convert `.tga` to `.png` (TGA to PNG Converter) ->
 
 2. **Convert `.car` to `.obj` Using C3Dit:**
    - Use C3Dit or any other tool to convert `.car` files to `.obj`.
+     
    - Ensure associated `.tga` texture files are exported or created separately (for MTL generation).
 
 3. **MTL Generation (Using MTL Generator Script):**
    - Run the MTL Generator script to create `.mtl` files with specified material properties.
-     ```bash
-     python mtl_generator.py
-     ```
+
    - Follow the prompts to select the `.obj` file. The script will generate a corresponding `.mtl` file in the same directory.
 
 4. **TGA to PNG Conversion (Using TGA to PNG Converter Script):**
    - Run the TGA to PNG Converter script to convert a folder and sub folders with TGA texture files to PNG format.
-     ```bash
-     python convert_tga_to_png.py
-     ```
+
    - Enter the path to the directory containing TGA files. The script will recursively convert all TGA files found to PNG format.
 
 5. **Enhance `.obj` Files with Vertex Normals (Using OBJ VN FIXXER Script):**
    - After generating the `.mtl` files and converting TGA textures to PNG, run the OBJ VN FIXXER script to add vertex normals to your `.obj` file.
-     ```bash
-     python obj_vn_fixer.py
-     ```
+
    - Enter the path to the `.obj` file when prompted (just file path with no .obj). The script will create a new `.obj` file with `_with_normals` appended to the filename, containing vertex normals.
 
 #### Example Workflow:
