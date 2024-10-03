@@ -1,3 +1,21 @@
+# OBJ_VN_FIXXER.py
+#
+# This script fixes vertex normal data in an OBJ file exported from C3Dit.
+# It ensures correct shading by recalculating vertex normals based on face normals.
+#
+# Usage:
+#   1. Run this script.
+#   2. When prompted, enter the path to the .obj file exported from C3Dit (without the .obj extension).
+#
+# Requirements:
+#   - Python 3.x
+#   - Dependencies: numpy, pyfiglet
+#     Install dependencies using: pip install numpy pyfiglet
+#
+# Author: Jolly Joe
+# Date: 10/03/2024
+# Version: 1.0
+
 import numpy as np
 import re
 from pathlib import Path

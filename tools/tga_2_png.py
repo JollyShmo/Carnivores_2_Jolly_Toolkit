@@ -1,3 +1,21 @@
+# tga_2_png.py
+#
+# This script converts TGA image files to PNG format recursively within a specified project folder.
+# It preserves folder structure and converts all TGA files found.
+#
+# Usage:
+#   1. Run this script.
+#   2. When prompted, enter the path to the project folder.
+#
+# Requirements:
+#   - Python 3.x
+#   - Dependencies: Pillow
+#     Install dependencies using: pip install Pillow
+#
+# Author: Jolly Joe
+# Date: 10/03/2024
+# Version: 1.0
+
 import os
 from PIL import Image
 

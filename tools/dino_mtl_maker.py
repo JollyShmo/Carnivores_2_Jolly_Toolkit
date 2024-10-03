@@ -1,3 +1,22 @@
+# dino_mtl_maker.py
+#
+# This script generates a material file (.mtl) for a 3D model in OBJ format.
+# It reads the OBJ file with vertex normals and creates corresponding materials.
+#
+# Usage:
+#   1. Run this script.
+#   2. Select 'Generate MTL' option.
+#   3. Choose the .obj file ending with '_with_normals.obj'.
+#
+# Requirements:
+#   - Python 3.x
+#   - Dependencies: PyQt5 (for GUI, if applicable)
+#     Install dependencies using: pip install PyQt5
+#
+# Author: Jolly Joe
+# Date: 10/03/2024
+# Version: 1.0
+
 import sys
 import os
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel, QVBoxLayout, QFileDialog
