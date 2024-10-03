@@ -1,5 +1,6 @@
 The OBJ VN FIXXER script is for enhancing `.obj` files with vertex normals, the MTL generator script is for creating `.mtl` files, and the TGA to PNG converter script is for converting texture files. Here’s how you can use them in a workflow:
 
+-> **Visit the vg-resource thread** https://www.vg-resource.com/thread-43064.html for more info. <-
 ### Workflow: Using OBJ VN FIXXER, MTL Generator, and TGA to PNG Converter Scripts
 
 #### Prerequisites:
