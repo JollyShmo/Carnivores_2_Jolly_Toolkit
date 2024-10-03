@@ -1,14 +1,16 @@
+[-> Download Jolly Toolkit](https://github.com/JollyShmo/Carnivores_2_Jolly_Toolkit/archive/refs/heads/main.zip)
+
 The OBJ VN FIXXER script is for enhancing `.obj` files with vertex normals, the MTL generator script is for creating `.mtl` files, and the TGA to PNG converter script is for converting texture files. Here’s how you can use them in a workflow:
 
--> **Visit the vg-resource thread** https://www.vg-resource.com/thread-43064.html for more info. <-
-### Workflow: Using OBJ VN FIXXER, MTL Generator, and TGA to PNG Converter Scripts
+**-> Visit the vg-resource thread: [Visit Here](https://www.vg-resource.com/thread-43064.html) for more info. <-**
+## Workflow: Using OBJ VN FIXXER, MTL Generator, and TGA to PNG Converter Scripts
 
 #### Prerequisites:
 - **Python Environment:** Ensure Python 3.x is installed on your system.
 - **Required Libraries:**
    -> pip install numpy pyfiglet PyQt5 Pillow 
 
-- Download C3Dit -> https://www.moddb.com/mods/carnivores-custom-edition/downloads/carnivores-3d-editor-v0099
+- Download C3Dit -> [Moddb Page](https://www.moddb.com/mods/carnivores-custom-edition/downloads/carnivores-3d-editor-v0099)
 #### Scripts Overview:
 1. **OBJ VN FIXXER:** Enhances `.obj` files with vertex normals.
 2. **MTL Generator:** Creates `.mtl` files with predefined material properties.
