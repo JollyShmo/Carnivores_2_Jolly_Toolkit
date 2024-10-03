@@ -4,7 +4,9 @@ The OBJ VN FIXXER script is for enhancing `.obj` files with vertex normals, the 
 
 #### Prerequisites:
 - **Python Environment:** Ensure Python 3.x is installed on your system.
-- **Required Libraries:** Install necessary libraries such as NumPy (for OBJ VN FIXXER) and Pillow (for TGA to PNG converter).
+- **Required Libraries:**
+   -> pip install numpy pyfiglet PyQt5 Pillow 
+
 - Download C3Dit -> https://www.moddb.com/mods/carnivores-custom-edition/downloads/carnivores-3d-editor-v0099
 #### Scripts Overview:
 1. **OBJ VN FIXXER:** Enhances `.obj` files with vertex normals.
