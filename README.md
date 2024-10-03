@@ -21,7 +21,7 @@ The OBJ VN FIXXER script is for enhancing `.obj` files with vertex normals, the 
 2. **Convert `.car` to `.obj` Using C3Dit:**
    - Use C3Dit or any other tool to convert `.car` files to `.obj`.
      
-   - Ensure associated `.tga` texture files are exported or created separately (for MTL generation).
+   - Ensure associated `.tga` texture files are exported as well (for MTL generation).
 
 3. **MTL Generation (Using MTL Generator Script):**
    - Run the MTL Generator script to create `.mtl` files with specified material properties.
