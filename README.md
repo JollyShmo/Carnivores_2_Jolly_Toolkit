@@ -5,7 +5,7 @@ The OBJ VN FIXXER script is for enhancing `.obj` files with vertex normals, the 
 #### Prerequisites:
 - **Python Environment:** Ensure Python 3.x is installed on your system.
 - **Required Libraries:** Install necessary libraries such as NumPy (for OBJ VN FIXXER) and Pillow (for TGA to PNG converter).
-
+- Download C3Dit -> https://www.moddb.com/mods/carnivores-custom-edition/downloads/carnivores-3d-editor-v0099
 #### Scripts Overview:
 1. **OBJ VN FIXXER:** Enhances `.obj` files with vertex normals.
 2. **MTL Generator:** Creates `.mtl` files with predefined material properties.
@@ -15,8 +15,6 @@ The OBJ VN FIXXER script is for enhancing `.obj` files with vertex normals, the 
 1. **Make New Folder `project`**
 
 (Since every skin should be named `Skin.png` this will keep things from breaking.)
-
-https://github.com/carnivores-cpe/c3dit
 
 2. **Convert `.car` to `.obj` Using C3Dit:**
    - Use C3Dit or any other tool to convert `.car` files to `.obj`.
