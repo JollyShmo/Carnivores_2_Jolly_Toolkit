@@ -1,4 +1,4 @@
-<img src="fixxer.png" width="300" /> <img src="fixxer.png" width="300" /> <img src="fixxer.png" width="300" />
+<img src="fixxer.png" width="200" /> <img src="fixxer.png" width="200" /> <img src="fixxer.png" width="200" />
 
 **[-> Download Jolly Toolkit](https://github.com/JollyShmo/Carnivores_2_Jolly_Toolkit/archive/refs/heads/main.zip)**
 
