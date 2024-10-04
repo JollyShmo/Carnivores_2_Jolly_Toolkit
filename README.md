@@ -1,4 +1,6 @@
-[-> Download Jolly Toolkit](https://github.com/JollyShmo/Carnivores_2_Jolly_Toolkit/archive/refs/heads/main.zip)
+![screenshot]()
+
+**[-> Download Jolly Toolkit](https://github.com/JollyShmo/Carnivores_2_Jolly_Toolkit/archive/refs/heads/main.zip)**
 
 The OBJ VN FIXXER script is for enhancing `.obj` files with vertex normals, the MTL generator script is for creating `.mtl` files, and the TGA to PNG converter script is for converting texture files. Here’s how you can use them in a workflow:
 
